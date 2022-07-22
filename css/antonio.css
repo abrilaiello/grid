@@ -1,0 +1,27 @@
+main{
+    grid-template-areas: 
+    "carlos fio antonio"
+    "estudiantes estudiantes estudiantes";
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.carlos{
+    grid-area: carlos;
+}
+
+.fio{
+    grid-area: fio;
+}
+
+.antonio{
+    grid-area: antonio;
+}
+
+.estudiantes{
+    grid-area: estudiantes;
+}
+/* OJOOO PORQUE ROMPE ESTRUCTURA SCROLLEO LATERAL */
+section:hover{ 
+    transform: scale(1.1);
+    z-index: 2;
+}

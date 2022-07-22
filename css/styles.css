@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 30% 60% 10%;
+    height: 100vh;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.headingUno{
+    display: grid; 
+    justify-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+section{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.estudiantes{
+    align-content: center
+}
+
+footer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+body{
+    font-family: roboto, sans-serif;
+    color: white;
+}
+
+header{
+    background-color: #F2B749;
+    text-transform: uppercase;   
+}
+
+h1{
+    letter-spacing: 0.6rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    border: 1px white solid;
+    text-transform: lowercase;
+}
+
+.carlos{
+    background-color:#F2A057 ;
+}
+
+.fio{
+    background-color: #A65A49;
+}
+
+.antonio{
+    background-color: #789EBF;
+}
+
+.estudiantes{
+    background-color:#F2C744;  
+    text-align: center;
+    padding: 5%;
+}
+
+footer{
+    background-color: #F2B749;
+    text-transform: lowercase;
+}
+
+
+.main{
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color:#789EBF;
+}
+
+marquee{
+    border: none;
+    font-size: 5rem;
+    width: 90%;
+    display: inline;
+    background-color: #789EBF;
+}
