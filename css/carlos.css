@@ -1,2 +1,22 @@
 /* grid area cuando no se necesita */
 /* no usar a los padres, querer acomodar desde lados incorrectos */
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}

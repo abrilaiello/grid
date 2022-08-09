@@ -1,7 +1,15 @@
-@media (max-width: 425px) {
-   
+@media (min-width:375px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
 }
 
-h1{
-    letter-spacing: 0rem;
+@media (min-width: 700px) {
+    header{
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    
 }
